@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tirs Au But Vêtements</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #111;
+}
+
+header {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin: 8px 0 0;
+  color: #ddd;
+}
+
+.hero {
+  background: linear-gradient(135deg, #111, #333);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin: 0 0 15px;
+}
+
+.hero span {
+  color: #ff2020;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff2020;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.products {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.product {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 12px #0002;
+}
+
+.photo {
+  height: 220px;
+  background: #ddd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+
+.product h3 {
+  margin-bottom: 8px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e00000;
+  margin: 15px;
+}
+
+.buy {
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about {
+  background: white;
+  text-align: center;
+}
+
+.contact {
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background: #000;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 700px) {
+  .products {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>TIRS AU BUT VÊTEMENTS</h1>
+  <p>Mode Homme & Femme — République démocratique du Congo 🇨🇩</p>
+</header>
+
+<div class="hero">
+  <h2>TON STYLE.<br><span>TON IDENTITÉ.</span></h2>
+  <p>Découvrez nos vêtements tendance.</p>
+  <a class="btn" href="#boutique">Voir la boutique</a>
+</div>
+
+<section id="boutique">
+
+<div class="title">
+  <h2>🛍️ Notre boutique</h2>
+  <p>Découvrez nos articles disponibles.</p>
+</div>
+
+<div class="products">
+
+<div class="product">
+  <div class="photo">👖</div>
+  <h3>Pantalon noir imprimé rouge</h3>
+  <div class="price">35 000 FC</div>
+  <a class="buy"
+     href="https://wa.me/243802582797?text=Bonjour%20Tirs%20Au%20But%2C%20je%20veux%20le%20pantalon%20noir%20%C3%A0%2035%20000%20FC">
+     Commander sur WhatsApp
+  </a>
+</div>
+
+<div class="product">
+  <div class="photo">⭐</div>
+  <h3>Pantalon noir étoiles</h3>
+  <div class="price">35 000 FC</div>
+  <a class="buy"
+     href="https://wa.me/243802582797?text=Bonjour%20Tirs%20Au%20But%2C%20je%20veux%20le%20pantalon%20%C3%A9toiles%20%C3%A0%2035%20000%20FC">
+     Commander sur WhatsApp
+  </a>
+</div>
+
+<div class="product">
+  <div class="photo">👕</div>
+  <h3>Ensemble bleu</h3>
+  <div class="price">Prix à confirmer</div>
+  <a class="buy"
+     href="https://wa.me/243802582797?text=Bonjour%20Tirs%20Au%20But%2C%20je%20veux%20des%20informations%20sur%20l%27ensemble%20bleu">
+     Demander le prix
+  </a>
+</div>
+
+</div>
+</section>
+
+<section class="about">
+  <h2>À propos de nous</h2>
+  <p>
+    Tirs Au But Vêtements est une boutique de vêtements
+    pour hommes et femmes en République démocratique du Congo.
+  </p>
+</section>
+
+<section class="contact">
+  <h2>📱 Commandez facilement</h2>
+  <p>Contactez-nous directement sur WhatsApp.</p>
+  <a class="btn" href="https://wa.me/243802582797">
+    WhatsApp : 080 258 2797
+  </a>
+</section>
+
+<footer>
+  © 2026 Tirs Au But Vêtements 🇨🇩
+</footer>
+
+</body>
+</html>
